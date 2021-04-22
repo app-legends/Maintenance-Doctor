@@ -18,6 +18,41 @@
         <!-- for haneen hero img + button + pop up form -->
         <section id="heroImg">
 
+            <img src="../fd9f9c_340ccd7fec0d4f04beb716bf33a68d58_mv2_d_3000_1393_s_2.jpg">
+            <!-- <img src='../building-maintenance-1024x683.jpg'> -->
+
+
+            <button class="open-button" onclick="openForm()">ORDER SERVICE NOW</button>
+
+            <div class="form-popup" id="myForm">
+                <form class="form-container">
+                    <h1>ORDER SERVICE NOW</h1>
+
+                    <label for="name"><b>Your Name</b></label>
+                    <input type="text" id='name' required>
+
+                    <label for="phoneNumber"><b>phone Number</b></label>
+                    <input type="number" id='phoneNumber' required>
+
+                    <label for="service"><b>Service</b></label>
+                    <input type='text' id='service' required>
+
+                    <label for="location"><b>Location</b></label>
+                    <input type='text' id='location' required>
+
+                    <button type="submit" class="btn">Submit</button>
+                    <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+                </form>
+            </div>
+            <!-- <script>
+                    function openForm() {
+                      document.getElementById("myForm").style.display = "block";
+                    }
+                    
+                    function closeForm() {
+                      document.getElementById("myForm").style.display = "none";
+                    }
+                    </script> -->
         </section>
         <!-- empty section for yousef -->
         <section>
