@@ -24,16 +24,17 @@ body header nav ul li{
 }
 body header nav ul{
     text-align: center;
-    height: 70px;
+    /* height: 70px; */
     position: absolute;
     left: 10%;
     list-style-type: none;
     overflow: hidden;
+    height: 100%; 
     
    
 }
 body header nav ul :hover{
-    background-color: black;
+    background-color: orange;
 }
 body header nav{
     padding-top: 2.6%;
@@ -69,7 +70,7 @@ body header nav img{
   footer{
 
     background-color:#424642 ;
-    color: orange;
+    color: rgb(255, 166, 0);
     position: absolute;
     top: 100%;
     width: 100%;
