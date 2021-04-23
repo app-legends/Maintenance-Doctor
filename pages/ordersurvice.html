@@ -2,67 +2,79 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
 </head>
 
 <body>
-    <!-- for abdallah -->
-    <header>
+  <!-- for abdallah -->
+  <header>
 
-    </header>
+  </header>
 
-    <main>
-        <!-- for haneen hero img + button + pop up form -->
-        <section id="heroImg">
+  <main>
+    <!-- for haneen hero img + button + pop up form -->
+    <section id="heroImg">
 
-            <img src="../fd9f9c_340ccd7fec0d4f04beb716bf33a68d58_mv2_d_3000_1393_s_2.jpg">
-            <!-- <img src='../building-maintenance-1024x683.jpg'> -->
+      <img src="../fd9f9c_340ccd7fec0d4f04beb716bf33a68d58_mv2_d_3000_1393_s_2.jpg">
+      <!-- <img src='../building-maintenance-1024x683.jpg'> -->
 
 
-            <button class="open-button" onclick="openForm()">ORDER SERVICE NOW</button>
+      <button class="open-button" onclick="openForm()">ORDER SERVICE NOW</button>
 
-            <div class="form-popup" id="myForm">
-                <form class="form-container">
-                    <h1>ORDER SERVICE NOW</h1>
+      <div class="form-popup" id="myForm">
+        <form class="form-container">
+          <fieldset>
+            <legend>ORDER SERVICE NOW</legend>
 
-                    <label for="name"><b>Your Name</b></label>
-                    <input type="text" id='name' required>
+            <h2>CLINET INFORMATION</h2>
 
-                    <label for="phoneNumber"><b>phone Number</b></label>
-                    <input type="number" id='phoneNumber' required>
+            <label for="name"><b>Your Name</b></label>
+            <input type="text" id='name' required>
 
-                    <label for="service"><b>Service</b></label>
-                    <input type='text' id='service' required>
+            <label for="phoneNumber"><b>Phone Number</b></label>
+            <input type="number" id='phoneNumber' required>
+            <br>
+            <label for="service"><b>Service</b></label>
+            <select id='service' required>
+              <option value="service1">service1</option>
+              <option value="service2">service2</option>
+              <option value="service3">service3</option>
+              <option value="service4">service4</option>
+            </select>
 
-                    <label for="location"><b>Location</b></label>
-                    <input type='text' id='location' required>
+            <label for="location"><b>Location</b></label>
+            <input type='text' id='location' required>
+            <br>
+            <label for="description"><b>Brief description</b></label>
+            <input type='text' id='description' required>
+            <br>
+            <button type="submit" class="btn">Submit</button>
+            <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+          </fieldset>
+        </form>
+      </div>
+      <!-- <script>
+        function openForm() {
+          document.getElementById("myForm").style.display = "block";
+        }
 
-                    <button type="submit" class="btn">Submit</button>
-                    <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
-                </form>
-            </div>
-            <!-- <script>
-                    function openForm() {
-                      document.getElementById("myForm").style.display = "block";
-                    }
-                    
-                    function closeForm() {
-                      document.getElementById("myForm").style.display = "none";
-                    }
-                    </script> -->
-        </section>
-        <!-- empty section for yousef -->
-        <section>
+        function closeForm() {
+          document.getElementById("myForm").style.display = "none";
+        }
+      </script> -->
+    </section>
+    <!-- empty section for yousef -->
+    <section>
 
-        </section>
-    </main>
-    <!-- for abdallah -->
-    <footer>
+    </section>
+  </main>
+  <!-- for abdallah -->
+  <footer>
 
-    </footer>
+  </footer>
 </body>
 
 </html>
