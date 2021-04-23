@@ -6,6 +6,8 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
+  <link rel="stylesheet" href="../css/heroWithForm.css">
+
 </head>
 
 <body>
@@ -22,41 +24,43 @@
       <!-- <img src='../building-maintenance-1024x683.jpg'> -->
 
 
-      <button class="open-button" onclick="openForm()">ORDER SERVICE NOW</button>
+      <button class="open-button" onclick='openForm()'>ORDER SERVICE NOW</button>
 
       <div class="form-popup" id="myForm">
         <form class="form-container">
-          <fieldset>
-            <legend>ORDER SERVICE NOW</legend>
-
-            <h2>CLINET INFORMATION</h2>
-
+       
+          <h2>CLINET INFORMATION</h2>
+         
             <label for="name"><b>Your Name</b></label>
             <input type="text" id='name' required>
-
+          
             <label for="phoneNumber"><b>Phone Number</b></label>
             <input type="number" id='phoneNumber' required>
             <br>
+
             <label for="service"><b>Service</b></label>
-            <select id='service' required>
+            <select id='service' id='service' required>
               <option value="service1">service1</option>
               <option value="service2">service2</option>
               <option value="service3">service3</option>
               <option value="service4">service4</option>
-            </select>
-
+             </select>
+            
             <label for="location"><b>Location</b></label>
             <input type='text' id='location' required>
             <br>
+                   
             <label for="description"><b>Brief description</b></label>
             <input type='text' id='description' required>
             <br>
+            
             <button type="submit" class="btn">Submit</button>
-            <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
-          </fieldset>
+            <button type="button" class="btn cancel" onclick='closeForm()'>Close</button>
+                
         </form>
       </div>
-      <!-- <script>
+
+      <script>
         function openForm() {
           document.getElementById("myForm").style.display = "block";
         }
@@ -64,8 +68,15 @@
         function closeForm() {
           document.getElementById("myForm").style.display = "none";
         }
-      </script> -->
+      </script>
+
+
+
     </section>
+
+
+
+
     <!-- empty section for yousef -->
     <section>
 
