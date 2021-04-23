@@ -1,1 +1,36 @@
 /* for abdallah */
+body header {
+background-color: #424642;
+height: 70px;
+
+}
+body header nav ul li a {
+text-decoration: none;
+color: white;
+
+}
+
+body header nav ul li{
+
+    width: 100px;
+    display: inline-block;
+    text-align: center;
+
+}
+body header nav ul{
+    text-align: center;
+    height: 70px;
+    width: 50%;
+   
+}
+body header nav{
+    padding-top: 10px;
+}
+
+body header nav img{
+    width: 160px;
+    position: absolute;
+    bottom: 138px;
+}
+
+  
