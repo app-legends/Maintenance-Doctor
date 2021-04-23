@@ -66,4 +66,16 @@ body header nav img{
     
 }
 
-  
+  footer{
+
+    background-color:#424642 ;
+    color: orange;
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    text-align: center;
+    
+  }
+  footer img {
+      width: 30px;
+  }
