@@ -1,7 +1,10 @@
 /* for abdallah */
 body header {
 background-color: #424642;
-height: 70px;
+height: 125px;
+position: relative;
+left: 0%;
+top: 0%;
 
 }
 body header nav ul li a {
@@ -15,22 +18,52 @@ body header nav ul li{
     width: 100px;
     display: inline-block;
     text-align: center;
+    margin-left: 50px;
+    
 
 }
 body header nav ul{
     text-align: center;
     height: 70px;
-    width: 50%;
+    position: absolute;
+    left: 10%;
+    list-style-type: none;
+    overflow: hidden;
+    
    
 }
+body header nav ul :hover{
+    background-color: black;
+}
 body header nav{
-    padding-top: 10px;
+    padding-top: 2.6%;
+    font-size: large;
 }
 
 body header nav img{
     width: 160px;
     position: absolute;
-    bottom: 138px;
+    top: 0.01px;
+    background-color: orange;
+}
+#information img {
+    width: 18%;
+    position: absolute;
+    right: 21.7%;
+    top: 216.7px;
+}
+#information p  {
+    width: 40%;
+    position: absolute;
+    top: 200px;
+    background-color:  #424642;
+    color: white;
+    height: 200px;
+}
+
+#information{
+    padding-left: 20%;
+    
 }
 
   
