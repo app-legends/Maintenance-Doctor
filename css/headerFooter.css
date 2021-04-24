@@ -56,7 +56,8 @@ body header nav img{
     /* top: 216.7px; */
     height: 250px;
     float: right;
-    margin-right: 400px;
+    margin-right: 250px;
+    width: 500px;
 }
 #information p  {
     width: 30%;
@@ -107,6 +108,9 @@ body header nav img{
 }
 #information div p{
     position: relative;
-    left: 340px;
+    left: 530px;
     top: 5px;
+}
+body{
+   background-color:#fff5f3;
 }
