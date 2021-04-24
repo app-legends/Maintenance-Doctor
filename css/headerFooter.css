@@ -1,6 +1,6 @@
 /* for abdallah */
 body header {
-background-color: #26272b;
+background-color: #26272be7;
 height: 100px;
 position: fixed;
 width: 100%;
@@ -51,16 +51,17 @@ body header nav img{
 }
 #information img {
     width: 30%;
-    position: absolute;
-    right: 21.7%;
+    /* position: absolute;
+    right: 21.7%; */
     /* top: 216.7px; */
     height: 250px;
+    float: right;
+    margin-right: 400px;
 }
 #information p  {
     width: 30%;
     position: relative;
     top: 200px;
-    background-color:  white;
     color: black;
     height: 200px;
 }
