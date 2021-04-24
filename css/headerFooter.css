@@ -1,1 +1,93 @@
 /* for abdallah */
+body header {
+background-color: #424642;
+height: 100px;
+position: fixed;
+width: 100%;
+
+}
+body header nav ul li a {
+text-decoration: none;
+color: white;
+
+}
+
+body header nav ul li{
+
+    width: 150px;
+    display: inline-block;
+    text-align: center;
+    margin-left: 50px;
+    
+
+}
+body header nav ul{
+    text-align: center;
+    /* height: 70px; */
+    position: absolute;
+    left: 10%;
+    list-style-type: none;
+    overflow: hidden;
+    height: 100%; 
+    
+   
+}
+body header nav ul  :hover{
+    /* background-color: orange; */
+    font-size:larger;
+    text-shadow: 100px;
+}
+body header nav{
+    padding-top: 2.6%;
+    font-size: large;
+}
+
+body header nav img{
+    width: 160px;
+    position: fixed;
+    top: 0.01px;
+    background-color:orange ;
+    height: 100px;
+}
+#information img {
+    width: 18%;
+    position: absolute;
+    right: 21.7%;
+    top: 216.7px;
+}
+#information p  {
+    width: 40%;
+    position: absolute;
+    top: 200px;
+    background-color:  #424642;
+    color: white;
+    height: 200px;
+}
+
+#information{
+    padding-left: 20%;
+    
+}
+
+  footer{
+
+    background-color:#424642 ;
+    color: rgb(255, 166, 0);
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    text-align: center;
+    height: 150px;
+    
+  }
+  footer img {
+      width: 30px;
+      position: relative;
+      
+  }
+  footer ul {
+      height: 150px;
+  }
+  footer ul p {
+     padding: 10px;
+  }
