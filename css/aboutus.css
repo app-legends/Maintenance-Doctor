@@ -1,1 +1,147 @@
 /* for saif */
+@import url('https://use.fontawesome.com/releases/v5.15.3/css/all.css');
+
+#colors {
+  background-color: #707070;
+  background-color: #f3f4ed;
+  background-color: #536162;
+  background-color: #424642;
+}
+
+main {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  background-image: url('../img/background-aboutus-main.jpg');
+  background-attachment: fixed;
+  min-height: 100vh;
+  /* need font */
+}
+
+.summary {
+  margin: 5% auto;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  color: #f3f4ed;
+  font-size: 18px;
+  background-color: rgba(112, 112, 112, 1);
+  box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.25) inset,
+    0px -10px 25px rgba(0, 0, 0, 0.25) inset;
+}
+
+.summary p {
+  width: 90%;
+}
+
+.devteam {
+  width: 100%;
+  padding-bottom: 5%;
+  background-color: rgba(112, 112, 112, 0.95);
+  box-shadow: 0px 15px 50px rgba(0, 0, 0, 0.25) inset;
+}
+
+.devteam h2 {
+  color: #f3f4ed;
+  text-align: center;
+  margin-top: 5%;
+}
+
+.container {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 40px 0;
+}
+
+.container .card {
+  position: relative;
+  width: 500px;
+  height: 500px;
+  background-color: rgba(243, 244, 247, 0.1);
+  margin: 20px;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.02);
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  backdrop-filter: blur(10px);
+}
+
+.container .card .content {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  transition: 0.5s;
+  filter: grayscale(100%);
+}
+
+.container .card:hover .content {
+  filter: grayscale(0%);
+  transform: translateY(-20px);
+}
+
+.container .card .content .imgBx {
+  position: relative;
+  width: 350px;
+  height: 350px;
+  border-radius: 15px;
+  overflow: hidden;
+  border: 5px solid rgba(0, 0, 0, 0.1);
+}
+
+.container .card .content .imgBx img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.container .card .content .contentBx h3 {
+  color: #f3f4ed;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 500;
+  font-size: 18px;
+  text-align: center;
+  margin: 20px 0 10px;
+  line-height: 1.1em;
+}
+
+.container .card .sci {
+  position: absolute;
+  bottom: 10px;
+  display: flex;
+  padding-left: 0;
+}
+
+.container .card .sci li {
+  list-style: none;
+  margin: 0 10px;
+  transform: translateY(40px);
+  transition: 0.5s;
+  opacity: 0;
+  transition-delay: calc(0.04s * var(--i));
+}
+
+.container .card:hover .sci li {
+  transform: translateY(0px);
+  opacity: 1;
+}
+
+.container .card .sci li a {
+  color: #f3f4ed;
+  font-size: 24px;
+}
