@@ -1,42 +1,57 @@
 'use strict';
 
-// eslint-disable-next-line no-unused-vars
-function Inputs(name, email, service, phone, experience, location, discription, photo) {
-    this.name = name;
-    this.email = email;
-    this.service = service;
-    this.phone = phone;
-    this.experience = experience;
-    this.location = location;
-    this.discription = discription;
-    this.photo = photo;
+let workerArr;
 
-
+function Inputs(
+  name,
+  email,
+  service,
+  phone,
+  experience,
+  location,
+  discription,
+  photo
+) {
+  this.name = name;
+  this.email = email;
+  this.service = service;
+  this.phone = phone;
+  this.experience = experience;
+  this.location = location;
+  this.discription = discription;
+  this.photo = photo;
+  workerArr.push(this);
 }
 
 let joinBtn = document.getElementById('joinBtn');
-joinBtn.addEventListener('click', join());
+joinBtn.addEventListener('click', function () {
+  join();
+});
 
 function join() {
-    let name = document.getElementById('name').value;
-    let email = document.getElementById('email').value;
-    let service = document.getElementById('service').value;
-    let phone = document.getElementById('phone').value;
-    let experience = document.getElementById('experience').value;
-    let location = document.getElementById('location').value;
-    let discription = document.getElementById('discription').value;
-    let photo = document.getElementById('photo').value;
-    let data = new Inputs(document.getElementById('name').value, email, service, phone, experience, location, discription, photo);
-    saveJoinData(data);
+  let name = document.getElementById('name').value;
+  let email = document.getElementById('email').value;
+  let service = document.getElementById('service').value;
+  let phone = document.getElementById('phone').value;
+  let experience = document.getElementById('experience').value;
+  let location = document.getElementById('location').value;
+  let discription = document.getElementById('discription').value;
+  let photo = document.getElementById('photo').value;
+
+  new Inputs(
+    name,
+    email,
+    service,
+    phone,
+    experience,
+    location,
+    discription,
+    photo
+  );
+  saveJoinData();
 }
 
-
-
-
-
-
-function saveJoinData(inputs) {
-    let data = JSON.stringify(inputs);
-    localStorage.setItem('worker inputs', data);
-
+function saveJoinData() {
+  let data = JSON.stringify(workerArr);
+  localStorage.setItem('workerInputs', data);
 }
