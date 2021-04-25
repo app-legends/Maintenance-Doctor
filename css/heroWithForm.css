@@ -3,6 +3,7 @@ box-sizing: border-box;}
 
 #heroImg img {
   width: 100%;
+  height: 500px;
   
 }
 
@@ -27,7 +28,7 @@ box-sizing: border-box;}
   .form-popup {
     display: none;
     position: absolute;
-    bottom: 325px;
+    bottom: 250px;
     font-size: 21px;
     float: right;
     right: 28px;
@@ -107,4 +108,33 @@ box-sizing: border-box;}
   /* Add some hover effects to buttons */
 .form-container .btn:hover, .open-button:hover {
   opacity: 1;
+}
+
+#showOrder  {
+  padding : 0% 10% ;
+
+}
+
+
+#showOrder div  {
+  
+  background-color:  #bea979;
+  color: white;
+  padding: 16px 20px;
+   border: none;
+   opacity: 0.8;
+   font-size: 30px;
+  float: right;
+  right: 28px;
+  width: 100%;
+  border: 3px solid #f1f1f1;
+  margin-top: -50px;
+}
+
+#showOrder div h3 { 
+  font-size: 30px;
+}
+
+#showOrder div h2 , h3 ,p { 
+  padding-top: 7px;
 }
