@@ -26,7 +26,7 @@ function join() {
     let location = document.getElementById('location').value;
     let discription = document.getElementById('discription').value;
     let photo = document.getElementById('photo').value;
-    let data = new Inputs(document.getElementById('name').value, email, service, phone, experience, location, discription, photo);
+    let data = new Inputs(name, email, service, phone, experience, location, discription, photo);
     saveJoinData(data);
 }
 
@@ -37,6 +37,7 @@ function join() {
 
 function saveJoinData(inputs) {
     let data = JSON.stringify(inputs);
+    console.log("🚀 ~ file: joinus.js ~ line 40 ~ saveJoinData ~ data", data);
     localStorage.setItem('worker inputs', data);
 
 }
