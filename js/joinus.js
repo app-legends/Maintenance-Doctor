@@ -1,7 +1,17 @@
 'use strict';
 
-// eslint-disable-next-line no-unused-vars
-function Inputs(name, email, service, phone, experience, location, discription, photo) {
+let workerArr = [];
+
+function Inputs(
+    name,
+    email,
+    service,
+    phone,
+    experience,
+    location,
+    discription,
+    photo
+) {
     this.name = name;
     this.email = email;
     this.service = service;
@@ -10,14 +20,17 @@ function Inputs(name, email, service, phone, experience, location, discription, 
     this.location = location;
     this.discription = discription;
     this.photo = photo;
-
-
+    workerArr.push(this);
 }
 
 let joinBtn = document.getElementById('joinBtn');
-joinBtn.addEventListener('click', join());
+joinBtn.addEventListener('click', function () {
+    join();
+});
 
 function join() {
+
+
     let name = document.getElementById('name').value;
     let email = document.getElementById('email').value;
     let service = document.getElementById('service').value;
@@ -26,18 +39,25 @@ function join() {
     let location = document.getElementById('location').value;
     let discription = document.getElementById('discription').value;
     let photo = document.getElementById('photo').value;
-    let data = new Inputs(name, email, service, phone, experience, location, discription, photo);
-    saveJoinData(data);
+
+    new Inputs(
+        name,
+        email,
+        service,
+        phone,
+        experience,
+        location,
+        discription,
+        photo
+    );
+    saveJoinData();
 }
 
-
-
-
-
-
-function saveJoinData(inputs) {
-    let data = JSON.stringify(inputs);
-    console.log("🚀 ~ file: joinus.js ~ line 40 ~ saveJoinData ~ data", data);
-    localStorage.setItem('worker inputs', data);
+function saveJoinData() {
+    let newWorker = localStorage.getItem('workerInputs');
+    let workersStored = JSON.parse(newWorker);
+    workersStored.push(workerArr[0]);
+    let data = JSON.stringify(workersStored);
+    localStorage.setItem('workerInputs', data);
 
 }
