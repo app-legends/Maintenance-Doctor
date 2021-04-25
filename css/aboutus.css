@@ -64,12 +64,13 @@ main {
   height: 500px;
   margin: 2%;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   border-radius: 15px;
   background-color: rgba(243, 244, 247, 0.1);
   box-shadow: 0 15px 35px rgba(0, 0, 0, 0.02);
-  backdrop-filter: blur(10px);
+  /* backdrop-filter: blur(10px); */
 }
 
 .container .card .content {
@@ -109,8 +110,7 @@ main {
 }
 
 .container .card .sci {
-  position: absolute;
-  bottom: 10px;
+  margin-top: 3%;
   display: flex;
   padding-left: 0;
 }
