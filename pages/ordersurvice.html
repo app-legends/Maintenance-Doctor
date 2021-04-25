@@ -10,8 +10,8 @@
     <title>Document</title>
     <link rel="stylesheet" href="../css/headerFooter.css">
     <link rel="stylesheet" href="../css/reset.css">
-  <link rel="stylesheet" href="../css/heroWithForm.css">
-   <link rel="stylesheet" href="../css/servises.css">
+    <link rel="stylesheet" href="../css/heroWithForm.css">
+    <link rel="stylesheet" href="../css/servises.css">
     <link rel="stylesheet" href="../css/heroWithForm.css">
 
 
@@ -19,9 +19,9 @@
 
 <body>
 
-  <!-- for abdallah -->
-  <header>
-<nav>
+    <!-- for abdallah -->
+    <header>
+        <nav>
             <img src="../img/logo for 201project.png" alt="">
             <ul>
                 <li> <a href="../index.html">Home</a></li>
@@ -30,70 +30,73 @@
                 <li> <a href="aboutus.html">About us</a></li>
             </ul>
         </nav>
-  </header>
+    </header>
 
-  <main>
-    <!-- for haneen hero img + button + pop up form -->
-    <section id="heroImg">
+    <main>
+        <!-- for haneen hero img + button + pop up form -->
+        <section id="heroImg">
 
-      <img src="../fd9f9c_340ccd7fec0d4f04beb716bf33a68d58_mv2_d_3000_1393_s_2.jpg">
-     
-      <button class="open-button" onclick='openForm()'>ORDER SERVICE NOW</button>
+            <img src="../fd9f9c_340ccd7fec0d4f04beb716bf33a68d58_mv2_d_3000_1393_s_2.jpg">
 
-      <div class="form-popup" id="myForm">
-        <form class="form-container">
-       
-          <h2>CLINET INFORMATION</h2>
-         
-            <label for="name"><b>Your Name</b></label>
-            <input type="text" id='name' required>
-          
-            <label for="phoneNumber"><b>Phone Number</b></label>
-            <input type="number" id='phoneNumber' required>
-            <br>
+            <button class="open-button" onclick='openForm()'>ORDER SERVICE NOW</button>
 
-            <label for="service"><b>Service</b></label>
-            <select id='service' id='service' required>
-              <option value="Electrical Workers">Electrical Workers</option>
-              <option value="Paint Workers">Paint Workers</option>
-              <option value=" Plumber">Plumber</option>
-              <option value="Transfer Furniture">Transfer Furniture</option>
-              <option value="Solar System Service ">Solar System Service</option>
-              <option value="Tile Worker ">Tile Worker</option>
-              <option value="Carpentry Workers">Carpentry Workers</option>
-              </select>
-            
-            <label for="location"><b>Location</b></label>
-            <input type='text' id='location' required>
-            <br>
-                   
-            <label for="description"><b>Brief description</b></label>
-            <input type='text' id='description' required>
-            <br>
-            
-            <button type="submit" class="btn">Submit</button>
-            <button type="button" class="btn cancel" onclick='closeForm()'>Close</button>
-                
-        </form>
-      </div>
+            <div class="form-popup" id="myForm">
+                <form id="orderForm" class="form-container">
 
-      <script>
-        function openForm() {
-          document.getElementById("myForm").style.display = "block";
-        }
+                    <h2>CLINET INFORMATION</h2>
 
-        function closeForm() {
-          document.getElementById("myForm").style.display = "none";
-        }
-      </script>
+                    <label for="name"><b>Your Name</b></label>
+                    <input type="text" name='name' id='name' required>
+
+                    <label for="phoneNumber"><b>Phone Number</b></label>
+                    <input type="number" name='phoneNumber' id='phoneNumber' required>
+                    <br>
+
+                    <label for="service"><b>Service</b></label>
+                    <select id='service' name='service' id='service' required>
+                        <option value="Electrical Workers">Electrical Workers</option>
+                        <option value="Paint Workers">Paint Workers</option>
+                        <option value=" Plumber">Plumber</option>
+                        <option value="Transfer Furniture">Transfer Furniture</option>
+                        <option value="Solar System Service ">Solar System Service</option>
+                        <option value="Tile Worker ">Tile Worker</option>
+                        <option value="Carpentry Workers">Carpentry Workers</option>
+                    </select>
+
+                    <label for="location"><b>Location</b></label>
+                    <input type='text' name='location' id='location' required>
+                    <br>
+
+                    <label for="description"><b>Brief description</b></label>
+                    <input type='text' name='description ' id='description' required>
+                    <br>
+
+                    <button type="submit" id="submitOrder" class="btn">Submit</button>
+                    <button type="button" class="btn cancel" onclick='closeForm()'>Close</button>
+
+                </form>
+            </div>
+
+            <script>
+                function openForm() {
+                    document.getElementById("myForm").style.display = "block";
+                }
+
+                function closeForm() {
+                    document.getElementById("myForm").style.display = "none";
+                }
+            </script>
+
+            <script src="../js/orderService.js"></script>
+
+        </section>
+        <section id='showOrder'>
 
 
-
-    </section>
-
+        </section>
 
         <!-- empty section for yousef -->
-        <section id="servises">
+        <!-- <section id="servises">
             <article id="filterServises">
                 <div id="filterButton">
                     <h3>Services :</h3>
@@ -264,29 +267,29 @@
             </article>
 
 
-    </section>
-  </main>
-  <!-- for abdallah -->
-  <footer>
+        </section> -->
+    </main>
+    <!-- for abdallah -->
+    <footer>
 
-            <ul>
-                <p>contact us :</p>
-                <p>Email:example@yahoo.com</p>
-               
-                <a href="https://www.facebook.com/"><img src="../img/facebook.png"></a>
-                <a href="https://twitter.com/"><img src="../img/twitter.png" ></a>
-                <a href="https://www.whatsapp.com/"><img src="../img/whats-app.png" ></a>
-                <a href="https://www.instagram.com/"><img src="../img/instagram.png" ></a>
-                <p>@copyrights</p>
-    
-            </ul>
+        <ul>
+            <p>contact us :</p>
+            <p>Email:example@yahoo.com</p>
+
+            <a href="https://www.facebook.com/"><img src="../img/facebook.png"></a>
+            <a href="https://twitter.com/"><img src="../img/twitter.png"></a>
+            <a href="https://www.whatsapp.com/"><img src="../img/whats-app.png"></a>
+            <a href="https://www.instagram.com/"><img src="../img/instagram.png"></a>
+            <p>@copyrights</p>
+
+        </ul>
     </footer>
 
 
-    <script src="../js/mixitup.min.js"></script>
+    <!-- <script src="../js/mixitup.min.js"></script>
     <script>
         var mixer = mixitup('.container');
-    </script>
+    </script> -->
 
 </body>
 
