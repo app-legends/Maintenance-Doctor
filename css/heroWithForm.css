@@ -28,7 +28,7 @@ box-sizing: border-box;}
   .form-popup {
     display: none;
     position: absolute;
-    bottom: 325px;
+    bottom: 330px;
     font-size: 21px;
     float: right;
     right: 28px;
