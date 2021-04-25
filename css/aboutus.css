@@ -74,13 +74,13 @@ main {
 }
 
 .container .card .content {
-  filter: grayscale(100%);
+  filter: grayscale(0%);
   transform: translateY(20px);
   transition: 0.5s;
 }
 
 .container .card:hover .content {
-  filter: grayscale(0%);
+  filter: grayscale(100%);
   transform: translateY(0);
 }
 
