@@ -1,10 +1,11 @@
 /* for abdallah */
+
 body header {
 background-color: #26272be7;
 height: 100px;
 position: fixed;
 width: 100%;
-z-index: 1;
+z-index: 2;
 
 }
 body header nav ul li a {
@@ -51,6 +52,7 @@ body header nav img{
     height: 100px;
 }
 #information img {
+    background-color: whitesmoke;
     width: 30%;
     position: absolute;
     left: 615px;
@@ -107,6 +109,7 @@ body header nav img{
 
 }
 #information div img{
+    background-color: whitesmoke;
     position:absolute;
     left: 10px;
     top: 50px;
@@ -117,11 +120,12 @@ body header nav img{
     top: 50px;
 }
 body{
-   background-color:#fff5f3;
+   background-color:whitesmoke;
 }
 
 
 #information section img{
+    background-color: whitesmoke;
     width: 30%;
     position: absolute;
     left: 615px;
@@ -139,3 +143,31 @@ body{
     height: 200px;
     left: 15px;
 }
+
+#information #about-us {
+position: absolute;
+top: 570px;
+z-index: 1;
+left: 780px;
+width: 100px;
+height: 50px;
+
+}
+#information #ordersurvice {
+    position: absolute;
+    top: 200px;
+    z-index:1;
+    left: 300px;
+    width: 100px;
+    height: 50px;
+    
+    }
+    #information #joinus {
+        position: absolute;
+        top: 1200px;
+        z-index: 1;
+        left: 780px;
+        width: 100px;
+        height: 50px;
+        
+        }
