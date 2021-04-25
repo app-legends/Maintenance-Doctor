@@ -4,6 +4,7 @@ background-color: #26272be7;
 height: 100px;
 position: fixed;
 width: 100%;
+z-index: 1;
 
 }
 body header nav ul li a {
