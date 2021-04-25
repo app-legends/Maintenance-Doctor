@@ -4,6 +4,7 @@ background-color: #26272be7;
 height: 100px;
 position: fixed;
 width: 100%;
+z-index: 1;
 
 }
 body header nav ul li a {
@@ -51,20 +52,21 @@ body header nav img{
 }
 #information img {
     width: 30%;
-    /* position: absolute;
-    right: 21.7%; */
-    /* top: 216.7px; */
+    position: absolute;
+    left: 615px;
+    top: 400px;
     height: 250px;
-    float: right;
+    
     margin-right: 250px;
     width: 500px;
 }
 #information p  {
     width: 30%;
     position: relative;
-    top: 200px;
+    top: 400px;
     color: black;
     height: 200px;
+    left: 15px;
 }
 
 #information{
@@ -77,7 +79,7 @@ body header nav img{
     background-color:#26272b ;
     color: rgb(255, 166, 0);
     position: absolute;
-    top: 1000px;
+    top: 2000px;
     width: 100%;
     text-align: center;
     height: 150px;
@@ -86,6 +88,8 @@ body header nav img{
   footer img {
       width: 30px;
       position: relative;
+      height: 30px;
+    background-color: #26272b;
       
   }
   footer ul {
@@ -105,12 +109,33 @@ body header nav img{
 #information div img{
     position:absolute;
     left: 10px;
+    top: 50px;
 }
 #information div p{
     position: relative;
     left: 530px;
-    top: 5px;
+    top: 50px;
 }
 body{
    background-color:#fff5f3;
+}
+
+
+#information section img{
+    width: 30%;
+    position: absolute;
+    left: 615px;
+    top: 1100px;
+    height: 250px;
+    
+    margin-right: 250px;
+    width: 500px;
+}
+#information section p{
+    width: 30%;
+    position: relative;
+    top: 910px;
+    color: black;
+    height: 200px;
+    left: 15px;
 }
