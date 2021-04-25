@@ -12,10 +12,17 @@
     <link rel="stylesheet" href="../css/reset.css">
     <link rel="stylesheet" href="../css/heroWithForm.css">
     <link rel="stylesheet" href="../css/servises.css">
-    <link rel="stylesheet" href="../css/heroWithForm.css">
-
 
 </head>
+<style>
+    header {
+        z-index: 999;
+    }
+
+    footer {
+        position: static;
+    }
+</style>
 
 <body>
 
@@ -49,7 +56,7 @@
                     <input type="text" name='name' id='name' required>
 
                     <label for="phoneNumber"><b>Phone Number</b></label>
-                    <input type="number" name='phoneNumber' id='phoneNumber' required>
+                    <input type="text" name='phoneNumber' id='phoneNumber' required>
                     <br>
 
                     <label for="service"><b>Service</b></label>
@@ -77,18 +84,6 @@
                 </form>
             </div>
 
-            <script>
-                function openForm() {
-                    document.getElementById("myForm").style.display = "block";
-                }
-
-                function closeForm() {
-                    document.getElementById("myForm").style.display = "none";
-                }
-            </script>
-
-            <script src="../js/orderService.js"></script>
-
         </section>
         <section id='showOrder'>
 
@@ -96,7 +91,7 @@
         </section>
 
         <!-- empty section for yousef -->
-        <!-- <section id="servises">
+        <section id="servises">
             <article id="filterServises">
                 <div id="filterButton">
                     <h3>Services :</h3>
@@ -113,7 +108,7 @@
 
             </article>
             <article id="contentServises">
-                <div class="container">
+                <div class="container" id="containerCard">
 
                     <div class="box mix company">
                         <div class="imgBx">
@@ -267,7 +262,7 @@
             </article>
 
 
-        </section> -->
+        </section>
     </main>
     <!-- for abdallah -->
     <footer>
@@ -286,10 +281,23 @@
     </footer>
 
 
-    <!-- <script src="../js/mixitup.min.js"></script>
+    <script src="../js/mixitup.min.js"></script>    
+    <script src="../js/orderService.js"></script>
+    <!-- <script src="../js/joinus.js"></script> -->
     <script>
         var mixer = mixitup('.container');
-    </script> -->
+    </script>
+    <script>
+        function openForm() {
+            document.getElementById("myForm").style.display = "block";
+        }
+
+        function closeForm() {
+            document.getElementById("myForm").style.display = "none";
+        }
+    </script>
+
+
 
 </body>
 

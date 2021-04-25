@@ -76,8 +76,8 @@ body header nav img{
 
     background-color:#26272b ;
     color: rgb(255, 166, 0);
-    position: absolute;
-    top: 1000px;
+    /* position: absolute; */
+    /* top: 1000px; */
     width: 100%;
     text-align: center;
     height: 150px;
@@ -112,5 +112,5 @@ body header nav img{
     top: 5px;
 }
 body{
-   background-color:#fff5f3;
+   /* background-color:#fff5f3; */
 }
