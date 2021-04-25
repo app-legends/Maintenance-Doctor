@@ -12,6 +12,9 @@
 .mySlides {
   display: none;
 }
+section.slideshow-container{
+  height: 700px;
+}
 
 /* Next & previous buttons */
 .prev, .next {
