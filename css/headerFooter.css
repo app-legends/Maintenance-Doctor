@@ -1,6 +1,7 @@
 /* for abdallah */
 
 body header {
+    top: 0%;
 background-color: #26272be7;
 height: 100px;
 position: fixed;
@@ -77,6 +78,7 @@ body header nav img{
 }
 
   footer{
+      
 
     background-color:#26272b ;
     color: rgb(255, 166, 0);
