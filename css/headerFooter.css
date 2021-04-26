@@ -73,7 +73,7 @@ body header nav img{
 }
 
   footer{
-
+      clear: both;
     background-color:#26272b ;
     color: rgb(255, 166, 0);
     /* position: absolute; */
