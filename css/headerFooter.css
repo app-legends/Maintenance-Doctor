@@ -1,116 +1,101 @@
 /* for abdallah */
 body header {
-background-color: #26272be7;
-height: 100px;
-position: fixed;
-width: 100%;
-
+  background-color: #26272be7;
+  height: 100px;
+  position: fixed;
+  width: 100%;
+  z-index: 990;
 }
 body header nav ul li a {
-text-decoration: none;
-color: white;
-
+  text-decoration: none;
+  color: white;
 }
 
-body header nav ul li{
-
-    width: 150px;
-    display: inline-block;
-    text-align: center;
-    margin-left: 50px;
-    
-
+body header nav ul li {
+  width: 150px;
+  display: inline-block;
+  text-align: center;
+  margin-left: 50px;
 }
-body header nav ul{
-    text-align: center;
-    /* height: 70px; */
-    position: absolute;
-    left: 10%;
-    list-style-type: none;
-    overflow: hidden;
-    height: 100%; 
-    
-   
+body header nav ul {
+  text-align: center;
+  /* height: 70px; */
+  position: absolute;
+  left: 10%;
+  list-style-type: none;
+  overflow: hidden;
+  height: 100%;
 }
-body header nav ul  :hover{
-    /* background-color: orange; */
-    font-size:larger;
-    text-shadow: 100px;
+body header nav ul :hover {
+  /* background-color: orange; */
+  font-size: larger;
+  text-shadow: 100px;
 }
-body header nav{
-    padding-top: 2.6%;
-    font-size: large;
+body header nav {
+  padding-top: 2.6%;
+  font-size: large;
 }
 
-body header nav img{
-    width: 160px;
-    position: fixed;
-    top: 0.01px;
-    background-color:orange ;
-    height: 100px;
+body header nav img {
+  width: 160px;
+  position: fixed;
+  top: 0.01px;
+  background-color: orange;
+  height: 100px;
 }
 #information img {
-    width: 30%;
-    /* position: absolute;
+  width: 30%;
+  /* position: absolute;
     right: 21.7%; */
-    /* top: 216.7px; */
-    height: 250px;
-    float: right;
-    margin-right: 250px;
-    width: 500px;
+  /* top: 216.7px; */
+  height: 250px;
+  float: right;
+  margin-right: 250px;
+  width: 500px;
 }
-#information p  {
-    width: 30%;
-    position: relative;
-    top: 200px;
-    color: black;
-    height: 200px;
-}
-
-#information{
-    padding-left: 20%;
-    
+#information p {
+  width: 30%;
+  position: relative;
+  top: 200px;
+  color: black;
+  height: 200px;
 }
 
-  footer{
+#information {
+  padding-left: 20%;
+}
 
-    background-color:#26272b ;
-    color: rgb(255, 166, 0);
-    /* position: absolute; */
-    /* top: 1000px; */
-    width: 100%;
-    text-align: center;
-    height: 150px;
-    
-  }
-  footer img {
-      width: 30px;
-      position: relative;
-      
-  }
-  footer ul {
-      height: 150px;
-    
-      
-  }
-  footer ul p {
-     padding: 10px;
-     position: relative;
-  }
+footer {
+  background-color: #26272b;
+  color: rgb(255, 166, 0);
+  width: 100%;
+  text-align: center;
+  height: 150px;
+}
+footer img {
+  width: 30px;
+  position: relative;
+}
+footer ul {
+  height: 150px;
+}
+footer ul p {
+  padding: 10px;
+  position: relative;
+}
 #information div {
-    position: absolute;
-    top: 700px;
-
+  position: absolute;
+  top: 700px;
 }
-#information div img{
-    position:absolute;
-    left: 10px;
+#information div img {
+  position: absolute;
+  left: 10px;
 }
-#information div p{
-    position: relative;
-    left: 530px;
-    top: 5px;
+#information div p {
+  position: relative;
+  left: 530px;
+  top: 5px;
 }
-body{
-   /* background-color:#fff5f3; */
+body {
+  /* background-color:#fff5f3; */
 }
