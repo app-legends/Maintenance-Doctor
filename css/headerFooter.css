@@ -80,8 +80,7 @@ body header nav img{
 
     background-color:#26272b ;
     color: rgb(255, 166, 0);
-    position: absolute;
-    top: 1500px;
+
     width: 100%;
     text-align: center;
     height: 150px;
@@ -120,6 +119,7 @@ body header nav img{
     top: 50px;
 }
 body{
+
    background-color:whitesmoke;
 }
 
@@ -142,6 +142,7 @@ body{
     color: black;
     height: 200px;
     left: 15px;
+
 }
 
 #information #about-us {

@@ -6,6 +6,7 @@
     margin: 5% 0%;
     padding: 0% 10%;
     display: flex;
+    clear: both;
 }
 
 #filterServises{
@@ -14,7 +15,7 @@
 }
 
 #filterButton{
-    height: 300px;
+    height: 397px;
     padding: 50px 7px;
     background: rgba(245, 245, 245, 0.7);
     box-shadow: -12px 20px 20px 2px rgb(0 0 0 / 50%);
@@ -36,11 +37,6 @@
     text-decoration: none;
     /* background-color: yellow; */
     font-size: 17px;
-}
-
-#filterButton ul li:hover{
-    padding: 25px 22px;
-
 }
 
 #filterButton ul li:hover a{
@@ -138,7 +134,7 @@
 }
 
 .box .content h3{
-    font-size: 23px;
+    font-size: 20px;
     font-weight: 800;
     font-family: 'Playfair Display', serif;
 }
