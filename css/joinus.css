@@ -1,5 +1,73 @@
 /* for nura */
 
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+header{
+ 
+    margin-top: 0%;
+    background-color:#02475e;
+    opacity: 0.9;
+    
+    width: 100%;
+    padding: 0%;
+    border-radius: 25px;
+    margin-bottom: 30px;
+    display: inline-block;
+    position: fixed;
+    z-index: 50;
+    
+    
+    
+
+}
+header h2{
+    font-family: 'Righteous', cursive;
+    display: inline-block;
+    padding-bottom: 1%;
+    color: rgb(255,225,53)
+}
+header img{
+    background-color: transparent;
+    width: 5%;
+    height: 5%;
+    margin-left: 3%;
+    display: inline-block;
+}
+ul{
+    color: black;
+    text-align: center;
+    list-style-type: circle;
+    width: 1045px;
+}
+nav {
+    float: right;
+
+    
+}
+
+nav ul li{
+    display: inline-block;
+    margin-right: 100px;
+    margin-top: 21.44px;
+    padding-top: 2%;
+   
+}
+nav ul li a{
+    color:black;
+    text-decoration: none;
+    margin-top: 21.44px;
+    font-family: 'Righteous', cursive;
+    border-bottom: 3px solid transparent;
+   
+    
+}
+nav li  :hover{
+    
+    color: rgb(255,225,53);
+    padding: 10px;
+   
+    border-bottom: 3px solid rgb(255,225,53);
+}
+
 @font-face {
     font-family: Poppins-Regular;
     src: url('../fonts/poppins/Poppins-Regular.ttf'); 
@@ -31,7 +99,7 @@
   
   
   body, html {
-      height: 100%;
+      /* height: 100%; */
       font-family: Poppins-Regular, sans-serif;
   }
   
@@ -143,7 +211,7 @@
   [ Contact ]*/
   
   .container-contact100 {
-    margin-bottom: 70px;
+    margin-bottom: 0px;
     width: 100%;  
     min-height: 100vh;
     display: -webkit-box;
@@ -170,6 +238,8 @@
   }
   
   .wrap-contact100 {
+    z-index: -1;
+    margin-top: 8%;
     width: 48%;
     background: #fff;
     border-radius: 10px;
@@ -201,9 +271,11 @@
   }
   .contact100-form-title img{
     width: 30%;
+    margin-top: -149px;
   }
   
   .contact100-form-title-1 {
+    margin-top: 20px;
     font-family: Poppins-Bold;
     font-size: 20px;
     color: black;
@@ -218,19 +290,20 @@
     color: black;
     line-height: 1.5;
     text-align: center;
+    margin-top: 10px;
   }
-  
+ 
   
   .contact100-form-title::before {
     content: "";
     display: block;
     position: absolute;
-    z-index: 1;
-    width: 100%;
-    height: 100%;
-    top: 0%;
+    /* z-index:-10; */
+    height: 358%;
+    top: -229%;
+    top: -70%;
     left: 0%;
-    border-radius: 25px;
+    /* border-radius: 25px; */
     background-color: rgba(54,84,99,0.3);
   }
   
@@ -366,12 +439,13 @@
     padding: 0 20px;
     min-width: 160px;
     height: 50px;
-    background-color: #da701a;
+    background-color: rgb(255,225,53);
     border-radius: 25px;
-    margin-left: 75px;
-    font-family: Poppins-Regular;
+    margin-left: 316px;
+    margin-top: -90px;
+    font-family: 'Righteous', cursive;
     font-size: 16px;
-    color: #fff;
+    color: black;
     line-height: 1.2;
   
     -webkit-transition: all 0.4s;
@@ -388,7 +462,7 @@
   }
   
   .contact100-form-btn:hover {
-    background-color: #333333;
+    background-color: whitesmoke;
   }
   
   .contact100-form-btn:hover i {
@@ -499,3 +573,47 @@
   
   
   
+footer{
+  display: inline-block;
+  background-color:#02475e;
+ 
+  
+  width: 100%;
+}
+#footerImg{
+display: inline;
+ 
+}
+#footerImg a img{
+  width: 40px;
+  height: 40px;
+  float: right;
+  transition: width 1s;
+margin-bottom: 1%;
+  margin-right: 4%;
+  margin-top: 2%;
+}
+
+footer #footerImg a img:hover{
+  width: 60px;
+  height: 60px;
+}
+
+footer #move p
+{
+  width: 120%;
+  font-size: 20px;
+  font-family: 'Righteous', cursive;
+  display: inline-block;
+  text-align: center;
+  margin-left: 4%;
+  margin-top: 2%;
+ color: rgb(255,225,53);
+
+}
+footer p{
+  text-align: center;
+  margin-bottom: 2%;
+  
+  
+}
