@@ -3,10 +3,11 @@
 
 main {
   /* position: absolute; */
-  background-image: url(../img/wall.jfifs);
+  background-image: url(../img/wall2.jfif);
   background-attachment: fixed;
   font-family: 'Poppins', sans-serif;
 }
+
 
 .summary {
   /* margin-top: 3%; */
@@ -24,6 +25,8 @@ main {
 
 .summary ul {
   width: 100%;
+ 
+  list-style-type: square;
 }
 
 .summary ul li {
@@ -40,7 +43,7 @@ main {
 
 .summary p {
   margin: 1% auto;
-  width: 90%;
+  width: 70%;
   font-size: 18px;
   line-height: 1.3;
 }
