@@ -192,6 +192,7 @@ function getOrderInput() {
 
   if (setOrderInput !== null) {
     OrderService.arrayOfOrder = setOrderInput;
+    document.getElementById('h3Hr').style.visibility = 'visible';
   }
 }
 getOrderInput();
