@@ -101,6 +101,7 @@ function getJoinData(){
 
   if(workerInputs !== null){
     workerArr = workerInputs;
+    document.getElementById('h3Hr').style.visibility = 'visible';
   }
   // console.log(workerArr);
   renderCardOnOrederService();
@@ -108,9 +109,15 @@ function getJoinData(){
 
 getJoinData();
 
+
 function renderCardOnOrederService() {
 
+
+
+
+
   // console.log(workerArr[0].photo);
+
   let serviceSelect = document.getElementById('service');
 
   let containerCard = document.getElementById('containerCard');
@@ -128,6 +135,8 @@ function renderCardOnOrederService() {
   let pDiscription ;
 
   let serviceOption ;
+
+
 
   for (let i = 0; i < workerArr.length ; i++) {
 
@@ -175,6 +184,7 @@ function renderCardOnOrederService() {
     pExperience.textContent = `Experience : ${workerArr[i].experience}`;
     pLocation.textContent = `Location : ${workerArr[i].location}`;
     pDiscription.textContent = `Discription : ${workerArr[i].discription}`;
+
 
   }
 }
