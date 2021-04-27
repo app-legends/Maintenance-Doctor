@@ -1,136 +1,197 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Maintenance Doctor</title>
+    <link rel="stylesheet" href="css/reset.css" />
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Maintenance Doctor</title>
-  <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/headerFooter.css" />
+    <link rel="stylesheet" href="css/slideshow.css" />
+    <link rel="stylesheet" href="css/stretch-.css" />
+  </head>
 
-  <link rel="stylesheet" href="css/headerFooter.css">
-  <link rel="stylesheet" href="css/slideshow.css">
+  <body>
+    <!-- for abdallah header + footer + main withous id slideshow-->
+    <header>
+      <img
+        src="./img/home-icons-transparent-png-images-house-icon-png-free-11562920892kyqfyd0byd-removebg-preview.png"
+      />
+      <h2>
+        Maintenance <br />
+        Doctor
+      </h2>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="pages/ordersurvice.html">Order service</a></li>
+          <li><a href="pages/joinus.html">Join Us</a></li>
+          <li><a href="pages/aboutus.html">About us</a></li>
+          <li><a href="pages/showOrder.html">My Orders</a></li>
+          <li>
+            <label>
+              <input onclick="nightMode()" type="checkbox" id="nighModeCheck" />
+              <span id="nightModeSpan"></span>
+            </label>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main id="main">
+      <!-- section id slideShow for qusai -->
+      <section id="slideShow">
+        <div class="slideshow-container">
+          <!-- Full-width images with number and caption text -->
+          <div class="mySlides fade">
+            <img src="./nH/bath.jpg" />
+            <!-- <div class="text">Caption Text</div> -->
+          </div>
 
+          <div class="mySlides fade">
+            <img src="./nH/elec.jpg" />
+            <!-- <div class="text">Caption Two</div> -->
+          </div>
 
-
-</head>
-
-
-<body>
-  <!-- for abdallah header + footer + main withous id slideshow-->
-  <header>
-
-
-    <img src="./img/home-icons-transparent-png-images-house-icon-png-free-11562920892kyqfyd0byd-removebg-preview.png">
-    <h2>Maintenance <br> Doctor</h2>
-    <nav>
-      <ul>
-
-        <li> <a href="index.html">Home</a></li>
-        <li> <a href="pages/ordersurvice.html">Order service</a></li>
-        <li> <a href="pages/joinus.html">Join Us</a></li>
-        <li> <a href="pages/aboutus.html">About us</a></li>
-        <li> <a href="pages/showOrder.html">My Orders</a></li>
-
-      </ul>
-    </nav>
-
-  </header>
-  <main>
-    <!-- section id slideShow for qusai -->
-    <section id="slideShow">
-      <div class="slideshow-container">
-
-        <!-- Full-width images with number and caption text -->
-        <div class="mySlides fade">
-
-          <img src="./nH/bath.jpg">
-          <!-- <div class="text">Caption Text</div> -->
-        </div>
-
-        <div class="mySlides fade">
-
-          <img src="./nH/elec.jpg">
-          <!-- <div class="text">Caption Two</div> -->
-        </div>
-
-        <div class="mySlides fade">
-
-          <img src="./nH/home paint.jpg">
-          <!-- <div class="text">Caption Three</div> -->
-        </div>
-        <div class="mySlides fade">
-
-          <img src="./nH/paint.jpg">
-          <!-- <div class="text">Caption Three</div> -->
-        </div>
-        <div class="mySlides fade">
-
-          <img src="./nH/transfer.jpg">
-          <!-- <div class="text">Caption Three</div> -->
-        </div>
-        <!-- <div id="move">
+          <div class="mySlides fade">
+            <img src="./nH/home paint.jpg" />
+            <!-- <div class="text">Caption Three</div> -->
+          </div>
+          <div class="mySlides fade">
+            <img src="./nH/paint.jpg" />
+            <!-- <div class="text">Caption Three</div> -->
+          </div>
+          <div class="mySlides fade">
+            <img src="./nH/transfer.jpg" />
+            <!-- <div class="text">Caption Three</div> -->
+          </div>
+          <!-- <div id="move">
           <p>Maintenance Doctor <br> WHATEVER YOUR HOME NEEDS </p>
         </div> -->
-        <!-- Next and previous buttons -->
-        <!-- <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+          <!-- Next and previous buttons -->
+          <!-- <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
         <a class="next" onclick="plusSlides(1)">&#10095;</a> -->
+        </div>
+        <br />
+
+        <script src="js/SlideShow.js"></script>
+      </section>
+      <div id="information">
+        <p>
+          We are one of the fastest property maintenance companies in Jordan .
+          We have a team of expert professionals and engineer. We provide
+          maintenance services for office, hospital, hotel, warehouse, IT park,
+          residential and commercial buildings. We have worked with many reputed
+          clients . Our services include building maintenance, water body
+          maintenance, building renovation and interior work
+          <a href="./pages/ordersurvice.html">Order Survice</a>
+        </p>
+
+        <img
+          src="img/into._pic_1-removebg-preview.png"
+          style="background-color: transparent"
+        />
       </div>
-      <br>
 
+      <div id="secInfo">
+        <img
+          src="img/why_us_picture_2-removebg-preview.png"
+          style="background-color: transparent"
+        />
+        <p>
+          Maintinace doctor is a decade-old construction company. We have done
+          more than 250 construction projects for clients like Under
+          construction work, we provide the following services:- Solar plant
+          installation, building construction and swimming pool construction. We
+          also specialize in property/building maintenance services. We have an
+          in-house team of design engineers, structural engineer, site
+          supervisors, building in-charge, field workers, plumber, electrician
+          and masons. <a href="./pages/joinus.html">Join Our Team</a>
+        </p>
+      </div>
 
+      <div class="social-panel-container">
+        <div class="social-panel">
+          <button class="close-btn"><i class="fas fa-times"></i></button>
+          <h4>Get in touch on</h4>
+          <ul>
+            <li>
+              <a href="https://www.whatsapp.com" target="_blank">
+                <i class="fab fa-discord"
+                  ><img class="link" src="img/whatsup-.png" alt=""
+                /></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.twitter.com" target="_blank">
+                <i class="fab fa-twitter"
+                  ><img class="link" src="img/twitter-.png" alt=""
+                /></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com" target="_blank">
+                <i class="fab fa-linkedin"
+                  ><img class="link" src="img/linkin.png" alt=""
+                /></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.facebook.com" target="_blank">
+                <i class="fab fa-facebook"
+                  ><img class="link" src="img/facebook-.png"
+                /></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.instagram.com" target="_blank">
+                <i class="fab fa-instagram"
+                  ><img class="link" src="img/instgram.png" alt=""
+                /></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <button class="floating-btn">Get in Touch</button>
+    </main>
+    <footer>
+      <div id="move">
+        <p>
+          Maintenance Doctor <br />
+          WHATEVER YOUR HOME NEEDS
+        </p>
+      </div>
 
-
-      <script src="js/SlideShow.js"> </script>
-
-    </section>
-    <div id="information">
-
-      <p>We are one of the fastest property maintenance companies in Jordan . We have a team of expert professionals and
-        engineer. We provide maintenance services for office, hospital, hotel, warehouse, IT park, residential and
-        commercial buildings. We have worked with many reputed clients . Our services include building maintenance,
-        water body maintenance, building renovation and interior work <a href="./pages/ordersurvice.html">Order
-          Survice</a>
+      <div id="footerImg">
+        <a href="https://www.facebook.com/"
+          ><img src="img/facebook.png" style="background-color: transparent"
+        /></a>
+        <a href="https://twitter.com/"
+          ><img
+            src="img/twitter.png"
+            style="background-color: transparent"
+            alt=""
+        /></a>
+        <a href="https://www.whatsapp.com/"
+          ><img
+            src="img/whats-app.png"
+            style="background-color: transparent"
+            alt=""
+        /></a>
+        <a href="https://www.instagram.com/"
+          ><img
+            src="img/instagram.png"
+            style="background-color: transparent"
+            alt=""
+        /></a>
+      </div>
+      <p>
+        <br />
+        @copyrights
       </p>
-
-
-      <img src="img/into._pic_1-removebg-preview.png" style="background-color: transparent;">
-    </div>
-
-
-    <div id="secInfo">
-      <img src="img/why_us_picture_2-removebg-preview.png" style="background-color: transparent;">
-      <p>Maintinace doctor is a decade-old construction company. We have done more than 250 construction projects for
-        clients like
-        Under construction work, we provide the following services:-
-        Solar plant installation, building construction and swimming pool construction. We also specialize in
-        property/building maintenance services.
-        We have an in-house team of design engineers, structural engineer, site supervisors, building in-charge, field
-        workers, plumber, electrician and masons. <a href="./pages/joinus.html">Join Our Team</a></p>
-
-    </div>
-
-
-
-  </main>
-  <footer>
-    <div id="move">
-      <p> Maintenance Doctor <br> WHATEVER YOUR HOME NEEDS </p>
-    </div>
-
-
-    <div id="footerImg">
-      <a href="https://www.facebook.com/"><img src="img/facebook.png" style="background-color: transparent;"></a>
-      <a href="https://twitter.com/"><img src="img/twitter.png" style="background-color: transparent;" alt=""></a>
-      <a href="https://www.whatsapp.com/"><img src="img/whats-app.png" style="background-color: transparent;"
-          alt=""></a>
-      <a href="https://www.instagram.com/"><img src="img/instagram.png" style="background-color: transparent;"
-          alt=""></a>
-    </div>
-    <p> <br> @copyrights</p>
-
-
-  </footer>
-</body>
-
+    </footer>
+    <script src="js/stretch.js"></script>
+    <script src="js/nightMode.js"></script>
+  </body>
 </html>
