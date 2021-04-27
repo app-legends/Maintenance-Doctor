@@ -9,7 +9,7 @@ header h2,
 }
 
 .overlay {
-  background-color: #ffe13530 !important;
+  background-color: #ffe13550 !important;
 }
 
 .indexColor {
@@ -35,17 +35,14 @@ a {
 }
 
 .social-panel p {
-  border-radius: 20px;
-
   background-color: #feffff;
   color: #ffe135;
   font-weight: 900;
-  padding-top: 10%;
-  width: fit-content;
+  padding-top: 3%;
 }
 
 #myForm {
-  
+  /* background-color: #ffe13520; */
   background-color: transparent;
 }
 
@@ -61,17 +58,17 @@ a {
   background-color: #1f2833;
 }
 
+#main {
+  background-color: #feffff;
+}
+
 #joinBtn {
   background-color: #ffe135;
 }
 
-.summary{
+.devteam,
+.summary {
   background-color: #feffff90;
-  color: #0b0c10 !important;
-
-}
-.devteam {
-  background-color: #feffff70;
   color: #0b0c10 !important;
 }
 
@@ -83,13 +80,10 @@ a {
   color: #0b0c10 !important;
 }
 
-.container .card {
-  /* background-color: #0b0c1030; */
-}
+/* .container .card {
+  background-color: #0b0c1010;
+} */
 
 .sci li a {
   color: #0b0c10 !important;
-}
-#orderMain{
-  background-color: #feffff;
 }

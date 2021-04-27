@@ -2,8 +2,16 @@
 
 let workerArr = [];
 
-function Inputs( name , email , service , phone , experience , location , discription , photo ){
-
+function Inputs(
+  name,
+  email,
+  service,
+  phone,
+  experience,
+  location,
+  discription,
+  photo
+) {
   this.name = name;
   this.email = email;
   this.service = service;
@@ -17,10 +25,9 @@ function Inputs( name , email , service , phone , experience , location , discri
 }
 
 let joinBtn = document.getElementById('joinBtn');
-joinBtn.addEventListener('click', join );
+joinBtn.addEventListener('click', join);
 
 function join() {
-
   let name = document.getElementById('name').value;
   let email = document.getElementById('email').value;
   let service = document.getElementById('service').value;
@@ -30,15 +37,24 @@ function join() {
   let discription = document.getElementById('discription').value;
   let photo = document.getElementById('photo').value;
 
-  new Inputs( name , email , service , phone , experience , location , discription , photo );
+  new Inputs(
+    name,
+    email,
+    service,
+    phone,
+    experience,
+    location,
+    discription,
+    photo
+  );
 
   console.log(workerArr);
 
   saveJoinData();
+  location.reload();
 }
 
 function saveJoinData() {
-
   // let newWorker = localStorage.getItem('workerInputs');
 
   // let workersStored = JSON.parse(newWorker);
@@ -47,19 +63,17 @@ function saveJoinData() {
   // let data = JSON.stringify(workersStored);
   // localStorage.setItem('workerInputs', data);
 
-
   let data = JSON.stringify(workerArr);
 
   localStorage.setItem('workerInputs', data);
-
 }
 
-function getJoinData(){
+function getJoinData() {
   let data = localStorage.getItem('workerInputs');
 
   let workerInputs = JSON.parse(data);
 
-  if(workerInputs !== null){
+  if (workerInputs !== null) {
     workerArr = workerInputs;
   }
 }

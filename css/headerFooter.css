@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://use.fontawesome.com/releases/v5.15.3/css/all.css');
 header {
   margin-top: 0%;
   background-color: #02475e;
@@ -57,7 +58,7 @@ nav li :hover {
 }
 
 nav #qwerty :hover {
-  color: transparent;
+  /* color: transparent; */
   padding: 0px;
 
   border-bottom: 0 solid transparent;
@@ -97,9 +98,6 @@ nav #qwerty :hover {
 
 .overlay {
   height: 350px;
-  
- 
-  
 }
 
 #information {
@@ -218,6 +216,7 @@ footer {
   display: inline-block;
   background-color: #02475e;
   width: 100%;
+  padding-bottom: 2%;
 }
 #footerImg {
   display: inline;
@@ -307,130 +306,40 @@ footer p {
   transform: translateX(0px);
 }
 
-/* for abdallah */
-/* body header {
-background-color: #26272be7;
-height: 100px;
-position: fixed;
-width: 100%;
-
-}
-body header nav ul li a {
-text-decoration: none;
-color: white;
-
+.fa-moon {
+  position: absolute;
+  top: 43px;
+  margin-left: 25px;
 }
 
-body header nav ul li{
-
-    width: 150px;
-    display: inline-block;
-    text-align: center;
-    margin-left: 50px;
-    
-
-}
-body header nav ul{
-    text-align: center;
-    /* height: 70px; */
-/* position: absolute;
-    left: 10%;
-    list-style-type: none;
-    overflow: hidden;
-    height: 100%; 
-    
-   
-}
-body header nav ul  :hover{
-    /* background-color: orange; */
-/* font-size:larger;
-    text-shadow: 100px; */
-/* } */
-/* body header nav{
-    padding-top: 2.6%;
-    font-size: large;
+.fa-sun {
+  position: absolute;
+  top: 43px;
+  margin-left: -45px;
+  font-size: 20px;
+  color: white;
 }
 
-body header nav img{
-    width: 160px;
-    position: fixed;
-    top: 0.01px;
-    background-color:orange ;
-    height: 100px;
-} */
-/* #information img {
-    width: 30%;
-    /* position: absolute;
-    right: 21.7%; */
-/* top: 216.7px; */
-/* height: 250px;
-    float: right;
-    margin-right: 250px;
-    width: 500px;
-} */
-/* #information p  {
-    width: 30%;
-    position: relative;
-    top: 200px;
-    color: black;
-    height: 200px;
-} */
-/* 
-#information{
-    padding-left: 20%;
-    
+nav #qwerty :hover .fa-moon {
+  color: black;
 }
 
-  footer{
-
-    background-color:#26272b ;
-    color: rgb(255, 166, 0);
-    /* position: absolute; */
-/* top: 1000px; */
-/* width: 100%;
-    text-align: center;
-    height: 150px;
-    margin-bottom: 0%;
-    position: relative;
-    display: inline-block;
-  } */
-
-/* #footerImg {
-      width: 1%;
-      height: 1%;
-      position: absolute;
-      display: inline-block;
-  } 
-     */
-/* }
-  footer img {
-      width: 30px;
-      position: relative;
-      
-  }
-  footer ul {
-      height: 150px;
-    
-      
-  }
-  footer ul p {
-     padding: 10px;
-     position: relative;
-  }
-#information div {
-    position: absolute;
-    top: 700px;
-
+nav #qwerty :hover .fa-sun {
+  color: white;
 }
-#information div img{
-    position:absolute;
-    left: 10px;
+
+#footerImg {
+  text-align: center;
+  font-size: 40px !important;
+  margin-top: 2%;
+  margin-left: 17%;
 }
-#information div p{
-    position: relative;
-    left: 530px;
-    top: 5px;
+
+#footerImg i {
+  padding: 0 2%;
+  transition: font-size 0.5s;
 }
-body{
-   /* background-color:#fff5f3; */
-/* } */
+
+#footerImg i:hover {
+  font-size: 52px !important;
+}
