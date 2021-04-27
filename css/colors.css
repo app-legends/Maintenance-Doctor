@@ -1,0 +1,42 @@
+header,
+footer {
+  background-color: #333 !important;
+}
+
+header h2,
+#move p {
+  color: darkgoldenrod !important;
+}
+
+.overlay {
+  background-color: #ffe13550 !important;
+}
+
+.indexColor {
+  background-color: #feffff !important;
+}
+
+a {
+  color: #feffff !important;
+}
+
+.floating-btn {
+  background-color: #feffff;
+  border: 1px solid #ffe135;
+}
+
+.floating-btn:hover {
+  background-color: #ffe135;
+  color: #ffe135;
+}
+
+.social-panel {
+  border: 5px solid #ffe135;
+}
+
+.social-panel p {
+  background-color: #feffff;
+  color: #ffe135;
+  font-weight: 900;
+  padding-top: 3%;
+}
