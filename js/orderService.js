@@ -164,7 +164,7 @@ function OrderService(name, phoneNumber, service, location, description) {
 OrderService.arrayOfOrder = [];
 
 function getOrder(event) {
-  event.preventDefault();
+  // event.preventDefault();
 
   const order = event.target;
 

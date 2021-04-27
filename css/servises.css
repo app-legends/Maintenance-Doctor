@@ -8,7 +8,7 @@ header {
 
   width: 100%;
   padding: 0%;
-  border-radius: 25px;
+  /* border-radius: 25px; */
   margin-bottom: 30px;
   display: inline-block;
   position: fixed;
@@ -64,6 +64,7 @@ nav li :hover {
   padding: 0% 10%;
   display: flex;
   clear: both;
+  font-family: 'Poppins', sans-serif;
 }
 
 #filterServises {
@@ -81,7 +82,7 @@ nav li :hover {
 }
 
 #filterButton h3 {
-  font-size: 23px;
+  font-size: 40px;
   padding: 10px 7px;
 }
 
@@ -97,12 +98,14 @@ nav li :hover {
 
 #filterButton ul li a {
   text-decoration: none;
-  /* background-color: yellow; */
   font-size: 17px;
+  transition: ease-in 0.1s;
+  color: black;
 }
 
 #filterButton ul li:hover a {
-  font-size: 18px;
+  font-size: 24px;
+  color: white;
 }
 
 .filterImg {

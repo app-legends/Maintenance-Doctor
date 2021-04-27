@@ -12,6 +12,7 @@ main {
   /* position: absolute; */
   background-image: url('../img/background-aboutus-main.jpg');
   background-attachment: fixed;
+  font-family: 'Poppins', sans-serif;
 }
 
 .summary {
