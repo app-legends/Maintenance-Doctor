@@ -1,6 +1,10 @@
 /* for yousef */
 
 @import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
 header {
   margin-top: 0%;
   background-color: #02475e;
@@ -210,4 +214,8 @@ nav li :hover {
 .box:hover .content p {
   opacity: 1;
   transition-delay: 0.5s;
+}
+
+#orderForm {
+  font-size: 18px;
 }
