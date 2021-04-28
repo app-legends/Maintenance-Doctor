@@ -7,12 +7,15 @@ let link = document.getElementById('dayNight');
 let lightMode;
 let darkMode;
 
-if (window.location.pathname === '/index.html') {
-  lightMode = './css/colors.css';
-  darkMode = './css/nightColors.css';
+if (
+  window.location.pathname === 'index.html' ||
+  window.location.pathname === '/Maintenance-Doctor/'
+) {
+  lightMode = 'css/colors.css';
+  darkMode = 'css/nightColors.css';
 } else {
-  lightMode = '../css/colors.css';
-  darkMode = '../css/nightColors.css';
+  lightMode = 'css/colors.css';
+  darkMode = 'css/nightColors.css';
 }
 
 let b = localStorage.getItem('nightMode');
