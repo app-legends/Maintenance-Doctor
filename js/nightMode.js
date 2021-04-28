@@ -8,11 +8,11 @@ let lightMode;
 let darkMode;
 
 if (window.location.pathname === '/index.html') {
-  lightMode = './css/colors.css';
-  darkMode = './css/nightColors.css';
+  lightMode = './';
+  darkMode = './';
 } else {
-  lightMode = '../css/colors.css';
-  darkMode = '../css/nightColors.css';
+  lightMode = '../';
+  darkMode = '../';
 }
 
 let b = localStorage.getItem('nightMode');
@@ -21,11 +21,11 @@ if (b !== null) nightMode();
 // eslint-disable-next-line no-unused-vars
 function nightMode() {
   if (checkBox.checked === true || b === 'true') {
-    link.setAttribute('href', darkMode);
+    link.setAttribute('href', `${darkMode}css/nightColors.css`);
     checkBox.checked = true;
     b = true;
   } else {
-    link.setAttribute('href', lightMode);
+    link.setAttribute('href', `${lightMode}css/colors.css`);
     b = false;
     checkBox.checked = false;
   }
