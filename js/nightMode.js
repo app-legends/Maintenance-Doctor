@@ -9,7 +9,7 @@ let darkMode;
 
 if (
   window.location.pathname === 'index.html' ||
-  window.location.pathname === '/Maintenance-Doctor/'
+  window.location.pathname === '/Maintenance-Doctor/index.html'
 ) {
   lightMode = '/Maintenance-Doctor/css/colors.css';
   darkMode = '/Maintenance-Doctor/css/nightColors.css';
