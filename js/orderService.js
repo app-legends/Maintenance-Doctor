@@ -237,6 +237,7 @@ function getJoinData() {
 
   if (workerInputs !== null) {
     workerArr = workerInputs;
+    document.getElementById('h3Hr').style.visibility = 'visible';
   }
   // console.log(workerArr);
   renderCardOnOrederService();
