@@ -1,0 +1,113 @@
+header,
+footer {
+  background-color: #333 !important;
+}
+
+header h2,
+#move p {
+  color: darkgoldenrod !important;
+}
+
+.overlay {
+  background-color: #ffe13530 !important;
+}
+
+.indexColor {
+  background-color: #333 !important;
+  color: #feffff;
+}
+
+a {
+  color: #feffff !important;
+}
+
+.floating-btn {
+  background-color: #1f2833;
+  border: 1px solid #ffe135;
+}
+
+.floating-btn:hover {
+  background-color: #ffe135;
+  color: #ffe135;
+}
+
+.social-panel {
+  border: 5px solid #ffe135;
+}
+
+.social-panel p {
+  border-radius: 20px;
+  height: 100%;
+
+  background-color: #1f2833;
+  color: #ffe135;
+  font-weight: 900;
+  padding-top: 10%;
+  width: fit-content;
+}
+
+#myForm {
+  background-color: transparent;
+}
+
+.open-button {
+  background-color: #ffe135;
+}
+
+#submitOrder {
+  background-color: #ffe135;
+}
+
+#btn-cancel {
+  background-color: #1f2833;
+}
+
+#joinBtn {
+  background-color: #ffe135;
+}
+
+.summary {
+  background-color: #0b0c1090;
+  color: #feffff !important;
+}
+.devteam {
+  background-color: #0b0c1070;
+  color: #feffff !important;
+}
+
+.devteam h2 {
+  color: #feffff;
+}
+
+.devteam h3 {
+  color: #feffff !important;
+}
+
+.container .card {
+  /* background-color: #0b0c1030; */
+}
+
+.sci li a {
+  color: #feffff !important;
+}
+
+#orderMain {
+  background-color: #333;
+}
+
+#aboutUsMain {
+  /* position: absolute; */
+  background-image: url(../img/wallwhite.jpg);
+}
+
+#orderServiceMain {
+  background-color: #333;
+}
+
+#joinUsMain {
+  background-color: #333;
+}
+
+.summary ul li {
+  color: #feffff !important;
+}

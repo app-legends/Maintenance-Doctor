@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/reset.css" />
+    <link rel="stylesheet" href="../css/headerFooter.css" />
+    <link rel="stylesheet" href="../css/heroWithForm.css" />
+    <link rel="stylesheet" href="../css/servises.css" />
+    <link id="dayNight" rel="stylesheet" href="../css/colors.css" />
+    <link rel="stylesheet" href="../css/swiper.min.css" />
+    <link
+      rel="icon"
+      href="../img/home-icons-transparent-png-images-house-icon-png-free-11562920892kyqfyd0byd-removebg-preview.png"
+      type="image/png"
+      sizes="16x16"
+    />
+  </head>
+  <style>
+    header {
+      z-index: 999;
+    }
+
+    footer {
+      position: static;
+    }
+  </style>
+
+  <body>
+    <!-- for abdallah -->
+    <header>
+      <img
+        src="../img/home-icons-transparent-png-images-house-icon-png-free-11562920892kyqfyd0byd-removebg-preview.png"
+      />
+      <h2>
+        Maintenance <br />
+        Doctor
+      </h2>
+      <nav>
+        <ul>
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="../pages/ordersurvice.html">Order service</a></li>
+          <li><a href="../pages/joinus.html">Join Us</a></li>
+          <li><a href="../pages/aboutus.html">About us</a></li>
+          <li><a href="../pages/showOrder.html">My Orders</a></li>
+          <li id="qwerty">
+            <label>
+              <input onclick="nightMode()" type="checkbox" id="nighModeCheck" />
+              <i class="fas fa-sun"></i>
+              <span id="nightModeSpan"> </span>
+              <i class="fas fa-moon"></i>
+            </label>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main id="orderServiceMain">
+      <!-- for haneen hero img + button + pop up form -->
+      <section id="heroImg">
+        <img
+          src="../fd9f9c_340ccd7fec0d4f04beb716bf33a68d58_mv2_d_3000_1393_s_2.jpg"
+        />
+
+        <button class="open-button" onclick="openForm()">
+          ORDER SERVICE NOW
+        </button>
+
+        <div class="form-popup" id="myForm">
+          <form id="orderForm" class="form-container">
+            <h2>CLINET INFORMATION</h2>
+
+            <label for="name"><b>Your Name</b></label>
+            <input type="text" name="name" id="name" required />
+
+            <label for="phoneNumber"><b>Phone Number</b></label>
+            <input type="text" name="phoneNumber" id="phoneNumber" required />
+            <br />
+
+            <label for="service"><b>Service</b></label>
+            <select id="service" name="service" id="service" required>
+              <option value="Electrical Workers">Electrical Workers</option>
+              <option value="Paint Workers">Paint Workers</option>
+              <option value=" Plumber">Plumber</option>
+              <option value="Transfer Furniture">Transfer Furniture</option>
+              <option value="Solar System Service ">
+                Solar System Service
+              </option>
+              <option value="Tile Worker ">Tile Worker</option>
+              <option value="Carpentry Workers">Carpentry Workers</option>
+            </select>
+
+            <label for="location"><b>Location</b></label>
+            <input type="text" name="location" id="location" required />
+            <br />
+
+            <label for="description"><b>Brief description</b></label>
+            <input type="text" name="description " id="description" required />
+            <br />
+
+            <button type="submit" id="submitOrder" class="btn">Submit</button>
+            <button
+              type="button"
+              id="btn-cancel"
+              class="btn cancel"
+              onclick="closeForm()"
+            >
+              Close
+            </button>
+          </form>
+        </div>
+      </section>
+      <section id="showOrder"></section>
+
+      <!-- empty section for yousef -->
+
+      <article id="contentServises">
+        <div class="container">
+          <div class="swiper-container">
+            <h3 id="h3Servies">Our Services</h3>
+            <hr class="info-sec-hr" />
+            <div class="swiper-wrapper">
+              <div class="swiper-slide mix company">
+                <div class="box">
+                  <div class="imgBx">
+                    <img src="../imgYousef/electrical.png" alt="" />
+                  </div>
+                  <div class="content">
+                    <h3>Electrical Workers</h3>
+                    <p>
+                      We provide both residential as well as commercial service.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="swiper-slide mix company">
+                <div class="box">
+                  <div class="imgBx">
+                    <img src="../imgYousef/carpentry.png" alt="" />
+                  </div>
+                  <div class="content">
+                    <h3>Carpentry Workers</h3>
+                    <p>
+                      we offer wide range of Carpentery services such as
+                      refurbishments, fit out and de-fit out projects, repairs
+                      to building façades and interiors, painting and patching,
+                      replacing doors and door locks.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="swiper-slide mix company">
+                <div class="box">
+                  <div class="imgBx">
+                    <img src="../imgYousef/paint.png" alt="" />
+                  </div>
+                  <div class="content">
+                    <h3>Paint Workers</h3>
+                    <p>
+                      We offer a wide range of painting services that
+                      comfortably fit your budget.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="swiper-slide mix company">
+                <div class="box">
+                  <div class="imgBx">
+                    <img src="../imgYousef/tile.png" alt="" />
+                  </div>
+                  <div class="content">
+                    <h3>Tile Worker</h3>
+                    <p>Transform your wall and floor.</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="swiper-slide mix company">
+                <div class="box">
+                  <div class="imgBx">
+                    <img src="../imgYousef/solar-sys.png" alt="" />
+                  </div>
+                  <div class="content">
+                    <h3>PV Installation</h3>
+                    <p>
+                      We are equipped to mount photovoltaic systems or install
+                      solar panels on a variety of surfaces including buildings,
+                      rooftops and the ground.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="swiper-slide mix company">
+                <div class="box">
+                  <div class="imgBx">
+                    <img src="../imgYousef/plumber.png" alt="" />
+                  </div>
+                  <div class="content">
+                    <h3>Plumber Workers</h3>
+                    <p>
+                      We offer installation, repair & emergency services for all
+                      type of properties.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="swiper-slide mix company">
+                <div class="box">
+                  <div class="imgBx">
+                    <img src="../imgYousef/digging.png" alt="" />
+                  </div>
+                  <div class="content">
+                    <h3>Digging Worker</h3>
+                    <p>We lay plumbing lines and undertake excavation work.</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="swiper-slide mix company">
+                <div class="box">
+                  <div class="imgBx">
+                    <img src="../imgYousef/builder.png" alt="" />
+                  </div>
+                  <div class="content">
+                    <h3>Builder Workers</h3>
+                    <p>
+                      We have specialization in building the gorgeous house that
+                      too at an affordable price.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="swiper-slide mix company">
+                <div class="box">
+                  <div class="imgBx">
+                    <img src="../imgYousef/Transfer-furniture.png" alt="" />
+                  </div>
+                  <div class="content">
+                    <h3>Transfer Furniture</h3>
+                    <p>
+                      Although it seems like furniture removals can be completed
+                      by yourself, it is a deceptively difficult task. Moving
+                      larger furniture like a corner sofa or a set of dining
+                      chairs is time consuming and tiring, so it is a good idea
+                      to hire us the services of a professional furniture mover.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- *******************Creat Buttons****************** -->
+            <div class="swiper-pagination"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+          </div>
+        </div>
+      </article>
+
+      <article id="contentOtherServises">
+        <div id="h3Hr">
+          <h3 id="h3Other">Other People's Service</h3>
+          <hr class="info-sec-hr" />
+        </div>
+
+        <div class="container" id="containerCard">
+          <!-- <div class="box mix other">
+              <div class="imgBx">
+                  <img src="../imgYousef/default.png" alt="">
+              </div>
+              <div class="content">
+                  <h3>Other People's Service</h3>
+                  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officia aliquid aperiam beatae
+                      omnis. Saepe impedit delectus, eligendi ipsa officia sapiente eveniet fugit placeat.
+                      Nemo inventore libero consectetur eos beatae velit.</p>
+              </div>
+          </div> -->
+        </div>
+      </article>
+    </main>
+    <!-- for abdallah -->
+    <footer>
+      <div id="move">
+        <p>
+          Maintenance Doctor <br />
+          WHATEVER YOUR HOME NEEDS
+        </p>
+      </div>
+
+      <div id="footerImg">
+        <a href="https://www.facebook.com/"><i class="fab fa-facebook"></i></a>
+        <a href="https://twitter.com/"><i class="fab fa-twitter"></i></a>
+        <a href="https://www.whatsapp.com/"><i class="fab fa-whatsapp"></i></a>
+        <a href="https://www.instagram.com/"
+          ><i class="fab fa-instagram"></i
+        ></a>
+      </div>
+      <p>
+        <br />
+      </p>
+    </footer>
+
+    <script src="../js/mixitup.min.js"></script>
+    <script src="../js/orderService.js"></script>
+    <script src="../js/swiper.min.js"></script>
+    <!-- <script src="../js/joinus.js"></script> -->
+    <script>
+      var mixer = mixitup('.container');
+    </script>
+    <script>
+      function openForm() {
+        document.getElementById('myForm').style.display = 'block';
+      }
+
+      function closeForm() {
+        document.getElementById('myForm').style.display = 'none';
+      }
+    </script>
+    <script src="../js/nightMode.js"></script>
+
+    <script>
+      /// swiper libarary
+      var swiper = new Swiper('.swiper-container', {
+        effect: 'coverflow',
+        grabCursor: true,
+        centeredSlides: true,
+        slidesPerView: 'auto',
+        loop: true,
+        coverflowEffect: {
+          rotate: 100,
+          stretch: -100,
+          depth: 500,
+          modifier: 2,
+          slideShadows: false,
+        },
+        pagination: {
+          el: '.swiper-pagination',
+        },
+        navigation: {
+          nextEl: '.swiper-button-next',
+          prevEl: '.swiper-button-prev',
+        },
+      });
+      swiper.slideTo(4, false, false);
+    </script>
+  </body>
+</html>

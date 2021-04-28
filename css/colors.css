@@ -1,0 +1,89 @@
+header,
+footer {
+  background-color: #333 !important;
+}
+
+header h2,
+#move p {
+  color: darkgoldenrod !important;
+}
+
+.overlay {
+  background-color: #ffe13550 !important;
+}
+
+.indexColor {
+  background-color: #feffff !important;
+}
+
+a {
+  color: #feffff !important;
+}
+
+.floating-btn {
+  background-color: #feffff;
+  border: 1px solid #ffe135;
+}
+
+.floating-btn:hover {
+  background-color: #ffe135;
+  color: #ffe135;
+}
+
+.social-panel {
+  border: 5px solid #ffe135;
+}
+
+.social-panel p {
+  background-color: #feffff;
+  color: #ffe135;
+  font-weight: 900;
+  padding-top: 3%;
+}
+
+#myForm {
+  /* background-color: #ffe13520; */
+  background-color: transparent;
+}
+
+.open-button {
+  background-color: #ffe135;
+}
+
+#submitOrder {
+  background-color: #ffe135;
+}
+
+#btn-cancel {
+  background-color: #1f2833;
+}
+/* 
+#main {
+  background-color: #feffff;
+} */
+
+#joinBtn {
+  background-color: #ffe135;
+}
+
+.devteam,
+.summary {
+  background-color: #feffff90;
+  color: #0b0c10 !important;
+}
+
+.devteam h2 {
+  color: #0b0c10;
+}
+
+.devteam h3 {
+  color: #0b0c10 !important;
+}
+
+/* .container .card {
+  background-color: #0b0c1010;
+} */
+
+.sci li a {
+  color: #0b0c10 !important;
+}
