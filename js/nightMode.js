@@ -12,7 +12,7 @@ if (
   window.location.pathname === '/Maintenance-Doctor/'
 ) {
   lightMode = '/Maintenance-Doctor/css/colors.css';
-  darkMode = '/Maintenance-Doctor/css/colors.css';
+  darkMode = '/Maintenance-Doctor/css/nightColors.css';
 } else {
   lightMode = '../css/colors.css';
   darkMode = '../css/nightColors.css';
