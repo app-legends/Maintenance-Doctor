@@ -14,8 +14,8 @@ if (
   lightMode = '/Maintenance-Doctor/css/colors.css';
   darkMode = '/Maintenance-Doctor/css/colors.css';
 } else {
-  lightMode = 'css/colors.css';
-  darkMode = 'css/nightColors.css';
+  lightMode = '../css/colors.css';
+  darkMode = '../css/nightColors.css';
 }
 
 let b = localStorage.getItem('nightMode');
