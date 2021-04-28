@@ -8,8 +8,8 @@ let lightMode;
 let darkMode;
 
 if (window.location.pathname === '/index.html') {
-  lightMode = 'css/colors.css';
-  darkMode = 'css/nightColors.css';
+  lightMode = './css/colors.css';
+  darkMode = './css/nightColors.css';
 } else {
   lightMode = '../css/colors.css';
   darkMode = '../css/nightColors.css';
