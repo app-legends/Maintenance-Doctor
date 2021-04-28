@@ -1,151 +1,138 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Maintenance Doctor</title>
-    <link rel="stylesheet" href="css/reset.css" />
-    <link
-      rel="icon"
-      href="img/home-icons-transparent-png-images-house-icon-png-free-11562920892kyqfyd0byd-removebg-preview.png"
-      type="image/png"
-      sizes="16x16"
-    />
-    <link rel="stylesheet" href="css/headerFooter.css" />
-    <link rel="stylesheet" href="css/slideshow.css" />
-    <link rel="stylesheet" href="css/stretch-.css" />
-    <link id="dayNight" rel="stylesheet" href="css/colors.css" />
-  </head>
 
-  <body>
-    <!-- for abdallah header + footer + main withous id slideshow-->
-    <header>
-      <img
-        src="./img/home-icons-transparent-png-images-house-icon-png-free-11562920892kyqfyd0byd-removebg-preview.png"
-      />
-      <h2>
-        Maintenance <br />
-        Doctor
-      </h2>
-      <nav>
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="pages/ordersurvice.html">Order service</a></li>
-          <li><a href="pages/joinus.html">Join Us</a></li>
-          <li><a href="pages/aboutus.html">About us</a></li>
-          <li><a href="pages/showOrder.html">My Orders</a></li>
-          <li id="qwerty">
-            <label>
-              <input onclick="nightMode()" type="checkbox" id="nighModeCheck" />
-              <i class="fas fa-sun"></i>
-              <span id="nightModeSpan"> </span>
-              <i class="fas fa-moon"></i>
-            </label>
-          </li>
-        </ul>
-      </nav>
-    </header>
-    <main id="main">
-      <!-- section id slideShow for qusai -->
-      <section id="slideShow">
-        <div class="slideshow-container">
-          <!-- Full-width images with number and caption text -->
-          <div class="mySlides fade">
-            <img src="./nH/bath.jpg" />
-            <!-- <div class="text">Caption Text</div> -->
-          </div>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Maintenance Doctor</title>
+  <link rel="stylesheet" href="css/reset.css" />
+  <link rel="icon"
+    href="img/home-icons-transparent-png-images-house-icon-png-free-11562920892kyqfyd0byd-removebg-preview.png"
+    type="image/png" sizes="16x16" />
+  <link rel="stylesheet" href="css/headerFooter.css" />
+  <link rel="stylesheet" href="css/slideshow.css" />
+  <link rel="stylesheet" href="css/stretch-.css" />
+  <link id="dayNight" rel="stylesheet" href="/css/colors.css" />
+</head>
 
-          <div class="mySlides fade">
-            <img src="./nH/elec.jpg" />
-            <!-- <div class="text">Caption Two</div> -->
-          </div>
+<body>
+  <!-- for abdallah header + footer + main withous id slideshow-->
+  <header>
+    <img src="./img/home-icons-transparent-png-images-house-icon-png-free-11562920892kyqfyd0byd-removebg-preview.png" />
+    <h2>
+      Maintenance <br />
+      Doctor
+    </h2>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="pages/ordersurvice.html">Order service</a></li>
+        <li><a href="pages/joinus.html">Join Us</a></li>
+        <li><a href="pages/aboutus.html">About us</a></li>
+        <li><a href="pages/showOrder.html">My Orders</a></li>
+        <li id="qwerty">
+          <label>
+            <input onclick="nightMode()" type="checkbox" id="nighModeCheck" />
+            <i class="fas fa-sun"></i>
+            <span id="nightModeSpan"> </span>
+            <i class="fas fa-moon"></i>
+          </label>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <main id="main">
+    <!-- section id slideShow for qusai -->
+    <section id="slideShow">
+      <div class="slideshow-container">
+        <!-- Full-width images with number and caption text -->
+        <div class="mySlides fade">
+          <img src="./nH/bath.jpg" />
+          <!-- <div class="text">Caption Text</div> -->
+        </div>
 
-          <div class="mySlides fade">
-            <img src="./nH/home paint.jpg" />
-            <!-- <div class="text">Caption Three</div> -->
-          </div>
-          <div class="mySlides fade">
-            <img src="./nH/paint.jpg" />
-            <!-- <div class="text">Caption Three</div> -->
-          </div>
-          <div class="mySlides fade">
-            <img src="./nH/transfer.jpg" />
-            <!-- <div class="text">Caption Three</div> -->
-          </div>
-          <!-- <div id="move">
+        <div class="mySlides fade">
+          <img src="./nH/elec.jpg" />
+          <!-- <div class="text">Caption Two</div> -->
+        </div>
+
+        <div class="mySlides fade">
+          <img src="./nH/home paint.jpg" />
+          <!-- <div class="text">Caption Three</div> -->
+        </div>
+        <div class="mySlides fade">
+          <img src="./nH/paint.jpg" />
+          <!-- <div class="text">Caption Three</div> -->
+        </div>
+        <div class="mySlides fade">
+          <img src="./nH/transfer.jpg" />
+          <!-- <div class="text">Caption Three</div> -->
+        </div>
+        <!-- <div id="move">
           <p>Maintenance Doctor <br> WHATEVER YOUR HOME NEEDS </p>
         </div> -->
-          <!-- Next and previous buttons -->
-          <!-- <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <!-- Next and previous buttons -->
+        <!-- <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
         <a class="next" onclick="plusSlides(1)">&#10095;</a> -->
-        </div>
+      </div>
+      <br />
+
+      <script src="js/SlideShow.js"></script>
+    </section>
+    <div class="indexColor" id="information">
+      <p>
+        <span id="span1">How Can We Help You</span><br />
+        <span id="span2">make your building as best?</span>
         <br />
+        We are one of the fastest property maintenance companies in Jordan .
+        We have a team of expert professionals and engineer. We provide
+        maintenance services for office, hospital, hotel, warehouse, IT park,
+        residential and commercial buildings. We have worked with many reputed
+        clients . Our services include building maintenance, water body
+        maintenance, building renovation and interior work
+        <a href="./pages/ordersurvice.html">Order Survice</a>
+      </p>
 
-        <script src="js/SlideShow.js"></script>
-      </section>
-      <div class="indexColor" id="information">
-        <p>
-          <span id="span1">How Can We Help You</span><br />
-          <span id="span2">make your building as best?</span>
-          <br />
-          We are one of the fastest property maintenance companies in Jordan .
-          We have a team of expert professionals and engineer. We provide
-          maintenance services for office, hospital, hotel, warehouse, IT park,
-          residential and commercial buildings. We have worked with many reputed
-          clients . Our services include building maintenance, water body
-          maintenance, building renovation and interior work
-          <a href="./pages/ordersurvice.html">Order Survice</a>
-        </p>
+      <img src="img/into._pic_1-removebg-preview.png" style="background-color: transparent" />
+    </div>
+    <div class="overlay"></div>
+    <div class="indexColor" id="secInfo">
+      <img src="img/why_us_picture_2-removebg-preview.png" style="background-color: transparent" />
+      <p>
+        Maintinace doctor is a decade-old construction company. We have done
+        more than 250 construction projects for clients like Under
+        construction work, we provide the following services:- Solar plant
+        installation, building construction and swimming pool construction. We
+        also specialize in property/building maintenance services. We have an
+        in-house team of design engineers, structural engineer, site
+        supervisors, building in-charge, field workers, plumber, electrician
+        and masons. <a href="./pages/joinus.html">Join Our Team</a>
+      </p>
+    </div>
+    <div class="overlay"></div>
+    <div class="indexColor" id="information" style="margin-top: 1px">
+      <p>
+        <span id="span1">Why We Choose This Website Idea?</span><br />
+        <br />
+        With today’s oversaturated markets, starting a business feels like a
+        shot in the dark. However, you do it because you trust in your idea
+        and your potential. After all, it’s said that there is nothing you
+        can’t do if you put your mind to it. I believe that when it comes to
+        being truly successful you should also involve your heart. Moreover,
+        your business should have a heart, and that’s the story behind it.
+        What is this heart? It’s the big question of WHY.
+        <a href="./pages/aboutus.html">About Us</a>
+      </p>
 
-        <img
-          src="img/into._pic_1-removebg-preview.png"
-          style="background-color: transparent"
-        />
-      </div>
-      <div class="overlay"></div>
-      <div class="indexColor" id="secInfo">
-        <img
-          src="img/why_us_picture_2-removebg-preview.png"
-          style="background-color: transparent"
-        />
-        <p>
-          Maintinace doctor is a decade-old construction company. We have done
-          more than 250 construction projects for clients like Under
-          construction work, we provide the following services:- Solar plant
-          installation, building construction and swimming pool construction. We
-          also specialize in property/building maintenance services. We have an
-          in-house team of design engineers, structural engineer, site
-          supervisors, building in-charge, field workers, plumber, electrician
-          and masons. <a href="./pages/joinus.html">Join Our Team</a>
-        </p>
-      </div>
-      <div class="overlay"></div>
-      <div class="indexColor" id="information" style="margin-top: 1px">
-        <p>
-          <span id="span1">Why We Choose This Website Idea?</span><br />
-          <br />
-          With today’s oversaturated markets, starting a business feels like a
-          shot in the dark. However, you do it because you trust in your idea
-          and your potential. After all, it’s said that there is nothing you
-          can’t do if you put your mind to it. I believe that when it comes to
-          being truly successful you should also involve your heart. Moreover,
-          your business should have a heart, and that’s the story behind it.
-          What is this heart? It’s the big question of WHY.
-          <a href="./pages/aboutus.html">About Us</a>
-        </p>
+      <img src="img/into._pic_1-removebg-preview.png" style="background-color: transparent" />
+    </div>
 
-        <img
-          src="img/into._pic_1-removebg-preview.png"
-          style="background-color: transparent"
-        />
-      </div>
-
-      <div class="social-panel-container">
-        <div class="social-panel">
-          <button class="close-btn"><i class="fas fa-times"></i></button>
-          <h4>Get in touch on</h4>
-          <!-- <ul>
+    <div class="social-panel-container">
+      <div class="social-panel">
+        <button class="close-btn"><i class="fas fa-times"></i></button>
+        <h4>Get in touch on</h4>
+        <!-- <ul>
             <li>
               <a href="https://www.whatsapp.com" target="_blank">
                 <i class="fab fa-discord"
@@ -183,42 +170,37 @@
             </li>
           </ul> -->
 
-          <p>
-            BOOK NOW to get 50% off on all our services. <br />
-            BOOK NOW for 2 services or more and get one service FREE. <br />
-            this offer until the 30th of may.
-          </p>
-        </div>
-      </div>
-      <button class="floating-btn">
-        <img
-          style="width: 80px; height: 40px; background-color: transparent"
-          src="img/50.png"
-          alt=""
-        />
-      </button>
-    </main>
-    <footer>
-      <div id="move">
         <p>
-          Maintenance Doctor <br />
-          WHATEVER YOUR HOME NEEDS
+          BOOK NOW to get 50% off on all our services. <br />
+          BOOK NOW for 2 services or more and get one service FREE. <br />
+          this offer until the 30th of may.
         </p>
       </div>
-
-      <div id="footerImg">
-        <a href="https://www.facebook.com/"><i class="fab fa-facebook"></i></a>
-        <a href="https://twitter.com/"><i class="fab fa-twitter"></i></a>
-        <a href="https://www.whatsapp.com/"><i class="fab fa-whatsapp"></i></a>
-        <a href="https://www.instagram.com/"
-          ><i class="fab fa-instagram"></i
-        ></a>
-      </div>
+    </div>
+    <button class="floating-btn">
+      <img style="width: 80px; height: 40px; background-color: transparent" src="img/50.png" alt="" />
+    </button>
+  </main>
+  <footer>
+    <div id="move">
       <p>
-        <br />
+        Maintenance Doctor <br />
+        WHATEVER YOUR HOME NEEDS
       </p>
-    </footer>
-    <script src="js/stretch.js"></script>
-    <script src="js/nightMode.js"></script>
-  </body>
+    </div>
+
+    <div id="footerImg">
+      <a href="https://www.facebook.com/"><i class="fab fa-facebook"></i></a>
+      <a href="https://twitter.com/"><i class="fab fa-twitter"></i></a>
+      <a href="https://www.whatsapp.com/"><i class="fab fa-whatsapp"></i></a>
+      <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+    </div>
+    <p>
+      <br />
+    </p>
+  </footer>
+  <script src="js/stretch.js"></script>
+  <script src="js/nightMode.js"></script>
+</body>
+
 </html>
