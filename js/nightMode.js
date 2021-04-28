@@ -11,8 +11,8 @@ if (
   window.location.pathname === 'index.html' ||
   window.location.pathname === '/Maintenance-Doctor/'
 ) {
-  lightMode = 'css/colors.css';
-  darkMode = 'css/nightColors.css';
+  lightMode = '/Maintenance-Doctor/css/colors.css';
+  darkMode = '/Maintenance-Doctor/css/colors.css';
 } else {
   lightMode = 'css/colors.css';
   darkMode = 'css/nightColors.css';
